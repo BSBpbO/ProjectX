@@ -1,0 +1,96 @@
+body{
+	font-family:Arial, Helvica, san-serif;
+	background-image: linear-gradient(45deg, rgb(207, 0, 254), rgb(10, 229, 245));
+}
+	
+div{
+	background-color:white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 80px;
+	border-radius: 15px;
+	color:black;
+    justify-content: center;
+    align-items: center;
+	text-align:center;
+}
+	
+input[type=password]{
+	height:15px;
+	width:85%;
+	padding:15px;
+	border-radius:10px;
+	background-color: rgba(234, 205, 236, 0.733);
+	border-bottom:2px solid grey;
+}
+
+input[type=text]{
+	height:15px;
+	width:85%;
+	padding:15px;
+	border-radius:10px;
+	background-color: rgba(234, 205, 236, 0.733);
+	border-bottom:2px solid grey;
+}
+	
+button{
+	background-color:dodgerblue;
+	border: none;
+	padding: 15px;
+	width: 100%;
+	border-radius: 10px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+	
+button:hover{
+	background-color: deepskyblue;
+}
+
+@media(max-width:800px){
+    input{
+    padding:10px;
+    border: none;
+    outline: none;
+    font-size: 9px;
+}
+
+button{
+    padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+
+div{
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+.data_nascimento{
+	border: none;
+	padding: 8px;
+	border-radius: 10px;
+	outline: none;
+	font-size: 15px;
+}
+.submit{
+	background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+	width: 100%;
+	border: none;
+	padding: 15px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.submit:hover{
+	background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}

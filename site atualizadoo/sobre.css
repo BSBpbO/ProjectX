@@ -1,0 +1,219 @@
+html{
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(45deg, rgb(17, 200, 236), rgba(125, 7, 121, 0.97));
+    font-family: "poppins", sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+.cabecalho{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+    
+}
+
+.cabecalho .logo{
+
+width: 65px;
+height: 65px;
+border-radius: 50%;
+border:  2px solid #fff;
+text-decoration: underline;
+text-align: center;
+line-height: 55px;
+font-family: "Raleway", sans-serif;
+transition: 0.2s;
+
+}
+
+.cabecalho a:hover .logo{
+    color: #101011;
+    border: 1px solid #f2eff5;
+}
+
+
+.cabecalho .menu li a{
+    font-size: 20px;
+    transform: capitalize;
+    padding: 10px 20px;
+}
+
+.cabecalho .menu li a:hover {
+    background-color: #9443d8;
+    color: #fff
+    
+    
+    
+}
+.menu li a:hover{
+    border-radius: 30%;
+    transition: 0.2s;
+
+}
+
+.sobre{
+  
+    display: flex;
+    min-height: calc(100vh - 125px);
+    align-items: center;
+    gap: 60px
+}
+
+.sobre .informacoes{
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.sobre .informacoes h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+   
+}
+.sobre .informacoes p{
+    font-family: "Raleway",sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+   
+}
+
+.sobre .redes-sociais{
+  
+   display: flex;
+    gap: 20px;
+   
+}
+
+.sobre .redes-sociais a i{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.3s;
+}
+
+.sobre .redes-sociais a i:hover{
+    color: #101011;
+    border: 1px solid #f2eff5;
+    transform: scale(1.1);
+}
+
+.sobre .container-foto .foto{
+ 
+    max-width: 450px;
+    border-radius: 50%;
+    flex-direction: initial;
+}
+
+.sobre .container-foto img{
+    width: 100%;
+    border-radius: 50%;
+   
+}
+
+.sobre .foto.sombra-interna{
+    background: linear-gradient(45deg, rgb(247, 0, 255), rgba(5, 223, 248, 0.97));
+}
+
+.produtos {
+	padding: 70px 0 70px;
+}
+
+.produtos .titulo {
+	text-align: center;
+	padding: 60px 0;
+	font-size: 45px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.produtos .container-imagens {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+
+.produtos .projeto {
+	max-width: 260px;
+	max-height: 500px;
+	position: relative;
+	display: none;
+}
+
+.produtos .projeto.ativo {
+	display: block;
+}
+
+.produtos .projeto img {
+	height: 100%;
+}
+
+.produtos .projeto h3 {
+	background-color: #040203;
+	width: 100%;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: absolute;
+	bottom: 0;
+    text-align: center;
+}
+
+.produtos .projeto .informacoes-imagens {
+	background-color: #040203;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	font-weight: 600;
+	opacity: 0;
+	transition: 0.3s;
+	padding: 20px;
+}
+
+.produtos .container-imagens .projeto:hover .informacoes-imagens {
+	opacity: 0.7;
+	background-color: #000;
+}
+
+.produtos .btn-voltar {
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	color: #fff;
+	width: 180px;
+	padding: 20px;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.btn-voltar:hover {
+	background-color: #9443d8;
+	transition: 0.3s;
+}
+
+
+
+
